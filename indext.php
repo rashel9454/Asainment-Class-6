@@ -33,8 +33,19 @@ You have to make a single array from this two arrays
 
 And don’t keep any value in multiple time */
 
+                //Answer//
+
+
+$first_email_array = ["abc@gmail.com", "xyz@gmail.com", "demo@gmail.com"]; 
+
+$second_email_array = ["efg@gmail.com", "xyz@gmail.com", "dummy@gmail.com"];
+$new_email_arry=array_merge($first_email_array , $second_email_array );
+echo "<pre>";
+array_splice($new_email_arry,4,1 );
+print_r($new_email_arry);
 
 ?>
+
 <h1>Question 03 Answer:-</h1>
 <?php
 /**	Question 03:
