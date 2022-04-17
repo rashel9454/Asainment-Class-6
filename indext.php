@@ -18,6 +18,19 @@ How much product quantity you have purchased (total purchased qty = 67)
 
 Calculate the total amount of all purchased items (total amount = 2650 tk). */
 
+
+array(
+array('name' => 'banana',  'qty' => 10, 'total_price' => 550),
+
+array('name' => 'apple',     'qty' => 50,  'total_price' => 1500),
+
+array('name' => 'orange',  'qty' => 7,    'total_price' => 600),
+
+);
+
+
+
+
 ?>
 <h1>Question 02 Answer:-</h1>
 <?php
@@ -51,6 +64,9 @@ print_r($new_email_arry);
 /**	Question 03:
  * $citylist = array( "Black Canyon City", "Chandler", "Flagstaff", "Gilbert", "Glendale", "Globe", "Mesa", "Miami", "Phoenix", "Peoria", "Prescott", "Scottsdale", "Sun City", "Surprise", "Tempe", "Tucson", "Wickenburg" );
  * Split this given array into chunks 4 */
+$citylist=array( "Black Canyon City", "Chandler", "Flagstaff", "Gilbert", "Glendale", "Globe", "Mesa", "Miami", "Phoenix", "Peoria", "Prescott", "Scottsdale", "Sun City", "Surprise", "Tempe", "Tucson", "Wickenburg" );
+echo "<pre>";
+print_r(array_chunk($citylist, 4));
 
 
 ?>
