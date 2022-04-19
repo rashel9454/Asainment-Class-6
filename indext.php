@@ -11,16 +11,21 @@ How much product quantity you have purchased (total purchased qty = 67)
 Calculate the total amount of all purchased items (total amount = 2650 tk). */
 $purchased_products = array(
 
-    array('name' => 'banana',  'total_qty' => 10, 'total_price' => 550),
+    array('name' => 'banana',  'qty' => 10, 'total_price' => 550),
 
     array('name' => 'apple',     'qty' => 50,  'total_price' => 1500),
 
     array('name' => 'orange',  'qty' => 7,    'total_price' => 600),
 
 );
-foreach($purchased_products as $keys =>$value){
 
-}
+$total_qty = [10,50,7];
+echo 'total qty'.' = '. array_sum($total_qty);
+echo"<br>";
+
+$total_amount = [550,1500,600];
+echo 'total price'.' = '. array_sum($total_amount);
+echo"<br>";
 
 
 
